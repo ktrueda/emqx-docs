@@ -85,8 +85,8 @@ Those events is disenabled by default, please refer to `sys_topics.sys_event_mes
 
 | Topic                    | Description                              |
 | ------------------------ | ---------------------------------------- |
-| ${clientid}/subscribed   | Subscribed event. This message is published when a client goes online |
-| ${clientid}/unsubscribed | unsubscribed event. This message is published when a client is offline |
+| ${clientid}/subscribed   | Subscribed event. This message is published when a client subscribes a topic |
+| ${clientid}/unsubscribed | Unsubscribed event. This message is published when a client unsubscribe a topic |
 
 The Payload of the `subscribed` event message can be parsed into JSON format:
 
